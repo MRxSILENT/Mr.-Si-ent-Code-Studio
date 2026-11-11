@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mr. Si!ent Code Studio</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><div class="brand"><span class="mark">&lt;/&gt;</span><div><b>Mr. Si!ent Code Studio</b><small>HTML · CSS · JavaScript Playground</small></div></div>
+<div class="toolbar"><button id="themeBtn">☼ Theme</button><button id="resetBtn">↻ Reset</button><button id="downloadBtn">⇩ Download Project</button><button id="runBtn" class="run">▶ Run</button></div></header>
+<main class="layout">
+<section class="editorPane"><div class="tabs"><button class="tab active" data-tab="html">🟠 HTML</button><button class="tab" data-tab="css">🔷 CSS</button><button class="tab" data-tab="javascript">🟨 JavaScript</button></div><div id="editor"></div><div class="foot">One editor · Switch tabs to edit each source file</div></section>
+<div class="splitter" id="splitter"></div>
+<section class="previewPane"><header>◉ Live Preview <button id="fullscreen">⛶</button></header><iframe id="preview" sandbox="allow-scripts" title="Live preview"></iframe><div class="foot"><span><i class="dot"></i> Auto preview: On</span><span id="status">Ready</span></div></section>
+</main><footer>Monaco Editor · GitHub Pages ready · CDN internet required</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.52.2/min/vs/loader.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script><script src="script.js"></script></body></html>
